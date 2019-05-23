@@ -1,0 +1,9 @@
+QMenu {background-color: white;border: 1px solid white;}
+QMenu::item {background-color: transparent;padding:8px 32px;margin:0px 8px;border-bottom:1px solid #DBDBDB;}
+QMenu::item:selected {background-color: #2dabf9;}
+QMenu::item:disabled {color: #666666;}
+QMenuBar {background-color: #0F4FA8;color: white;}
+QMenuBar::item {background: transparent;}
+QMenuBar::item:disabled {color: gray;}
+QMenuBar::item:selected {background: #1729B0;}
+QMenuBar::item:pressed {background: #01939A;}

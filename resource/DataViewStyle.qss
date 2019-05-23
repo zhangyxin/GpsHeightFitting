@@ -1,0 +1,2 @@
+QTableView QHeaderView::section {background-color:#06799F}
+QTableView::item{selection-background-color:rgb(23,165,200)}
