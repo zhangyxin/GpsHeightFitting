@@ -84,7 +84,10 @@ class Polyhedral(AbstractFitting):
         return np.matmul(C, beta)[0][0]
 
     def CalcResidual(self, hf):
-        pass
+        eve = []
+        for i in range(0, len(self.__unknown)):
+            eve.append(self.__unknown[i][2] - hf[i])
+        return eve
 
 
 if __name__ == '__main__':
