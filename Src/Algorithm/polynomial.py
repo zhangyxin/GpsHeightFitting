@@ -124,7 +124,7 @@ class Polynomial(AbstractFitting):
 
 if __name__ == '__main__':
     numpy.set_printoptions(suppress=True)
-    src = DataProcessingAnalysis.DataProcessing('../../Data/gps_data_2.txt')
+    src = DataProcessingAnalysis.DataProcessing('../../Data/gps_data_1.txt')
     basicData = src.Data
     p = Polynomial(basicData[0], 10)
     e = p.CalcAllPointHf()
